@@ -1,0 +1,96 @@
+
+
+/* header */
+header {
+    border: 0.1rem solid;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+/* font and font size */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: clamp(0.5rem, 5vw,3rem);
+    font-style: bold; 
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: clamp(0.5rem, 3vw,2rem);
+    font-style: bold; 
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+/* boxes */
+.rounded-box {
+    width: 60%;
+    height: 90vh;
+    background-color: cornflowerblue;
+    border-radius: 15px;  /* Rounded corners */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    justify-content: space-between;
+    
+}
+
+.rounded-boxx{
+    width: 60%;
+    height: 90vh;
+    background-color: indianred;
+    border-radius: 15px;  /* Rounded corners */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    justify-content: space-between;
+    
+}
+.inner-box {
+    width: 22vw;
+    height: 20vh;
+    background-color: rgb(41, 239, 156);
+    border: 1px solid;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.inner-boxx {
+    width: 40%;
+    height: 38vh;
+    background-color: rgb(41, 239, 156);
+    border: 1px solid;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+
+}
+
+/* blurry nav bar pero di ko gagamitin*/
+navbar{
+    
+    position: fixed;    /* Para nasa taas lang yung nav bar di sasama pag nag scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    backdrop-filter: blur(10px); /* Blurry effect */
+    background: rgba(255, 255, 255, 0.2); /*transparent background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Better spacing, equal lahat sides per content */
+    align-items: center;
+}
+
