@@ -14,7 +14,7 @@
 
         h1 {
             font-size:large;
-            text-shadow: 1px 1px 1px;
+            text-shadow: 1px 1px 1px black;
         }
 
         
@@ -30,7 +30,7 @@
 
         body {
             background-color: gray;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif00;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -96,6 +96,21 @@
         a {
             text-decoration: none;
         }
+
+        button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+
     </style>
 </head> 
 <body>
@@ -116,6 +131,9 @@
             
             <p><a href="https://windnetpc.com/"target="_blank">Windnet Pc</a></p>
             <p><a href="https://rog.asus.com/"target="_blank">Republic of Gamers</a></p>
+            
+            <button onclick="document.querySelector('iframe').src='https://brrad.net';">Return to Home</button>
+
         </div>
         
         <div class="box-large">
